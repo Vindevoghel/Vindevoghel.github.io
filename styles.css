@@ -1,9 +1,88 @@
 body{
-    background-color: antiquewhite;
+    background-color: #faebd7;
+    font-family: sans-serif;
 }
 
-.projects {
-    text-align: right;
-    padding-right: 50px;
-    padding-top: 50px;
+h1 {
+    color: darkcyan;
+    text-align: center;
 }
+
+h2 {
+    color: darkcyan;
+}
+
+/*centers container*/
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*Projects*/
+
+.projects {
+    float: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+/*dropdown menu*/
+
+.dropbtn {
+    background-color: darkcyan;
+    color: antiquewhite;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkcyan;
+    color: antiquewhite;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: darkcyan;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: antiquewhite;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+/*vcard*/
+
+.vcard {
+    width: 350px;
+    padding: 10px 10px 30px 10px;
+    border: darkcyan solid 2px;
+}
+
+.vcard img {
+    float:left;
+    margin-right: 4px;
+}
+
