@@ -4,6 +4,11 @@ html, body, p {
 /*header*/
 h1, h2 {
     margin: 0px;
+    padding: 5px;
+}
+
+body {
+    background: antiquewhite;
 }
 
 header {
@@ -21,12 +26,12 @@ header {
 
 .afbeelding {
     float: right;
+    padding-top: 20px;
 }
 
 /*about me*/
 
 .container {
-    background: antiquewhite;
     color: lightseagreen;
     font-family: sans-serif;
 }
@@ -34,9 +39,12 @@ header {
 /*footer*/
 footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     background: darkcyan;
     color: antiquewhite;
-    width: 100%
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-style: italic;
     text-align: center;
 }
