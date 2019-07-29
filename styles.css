@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    text-align: center;
+    vertical-align: center;
+    line-height: 73px;
+}
