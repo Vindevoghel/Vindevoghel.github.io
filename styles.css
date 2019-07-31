@@ -79,6 +79,10 @@ h2 {
     width: 350px;
     padding: 10px 10px 30px 10px;
     border: darkcyan solid 2px;
+    background: -webkit-linear-gradient(19deg, rgb(248, 248, 222), rgb(253, 254, 211));
+    background: linear-gradient(19deg, rgb(248, 248, 222), rgb(253, 254, 211));
+
+
 }
 
 .vcard img {
